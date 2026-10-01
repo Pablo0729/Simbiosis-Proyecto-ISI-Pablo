@@ -279,8 +279,12 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
+|NFR-001|NFR -Q (Disponibilidad) |La plataforma alcanzará una disponibilidad mínima del 99,5% en cada mes natural | G | - |Medida mediante comprobaciones externas cada cinco minutos| - |
+|NFR-002|NFR -I | La plataforma ayudará a los pacientes con Enfermedades Inflamatorias Intestinales a controlar sus síntomas a través de una alimentación adecuada  G | - | - | - |
+|NFR-003|NFR -I (Accesibilidad)| La plataforma debe ser accesible desde dispositivos móviles y de escritorio | G | - | - | DVA s2.3|
+|NFR-004|NFR -R (Normativa)| La plataforma trata datos personales y puede tratar datos de salud. | G | - | - | DVA s2.5 |
+|NFR-005|NFR -I (Accesibilidad)|La plataforma debe disponer de materiales de formación en línea, guías interactivas y tutoriales en vídeo, para facilitar el aprendizaje de los usuarios en el uso de la plataforma | G | - | - |DVA s3.3|
 
-|NFR-001|NFR -Q (Disponibilidad)|La plataforma alcanzará una disponibilidad mínima del 99,5% en cada mes natural|||Medida mediante comprobaciones externas cada cinco minutos||
 
 
 Categorías y atributos: 
