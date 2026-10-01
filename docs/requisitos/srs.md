@@ -267,6 +267,14 @@ para conservar la procedencia de la definición. El catálogo de requisitos podr
 enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
+| Receta Adaptada | receta que cumple las condiciones para un determinado paciente |  |
+| --- | --- | --- |
+| Usuario | Persona registrada en la plataforma y que tiene acceso a su cuenta | DVA 2.2 |
+| Publicaciones | Información subida a la plataforma accesible para cualquier usuario registrado | DVA 2.2 |
+| Solicitud de acceso | Intento, por parte de una persona ya registrada en la plataforma, de acceder a su cuenta | DVA 2.5 - Información y Derechos de las Personas |
+| Moderación | Control de la información subida a la plataforma | DVA 3.3 |
+| --- | --- | --- |
+
 | --- | --- | --- |
 
 ## 10. Modelos de análisis
