@@ -27,7 +27,8 @@ En iteraciones posteriores, actualiza el alcance acumulado. Distingue las funcio
 Registra los roles externos que participan en las funciones representadas. Un actor puede ser una persona o un sistema externo. Describe cada rol con una frase breve. No confundas estos roles con las personas del equipo de desarrollo.
 
 | Nombre del actor | Rol que representa |
-| --- | --- |
+| Usuario | Persona que interactúa con proyecto Simbiosis |
+| Usuario Registrado | Persona que dispone de una cuenta en la plataforma |
 | [Nombre] | [Describe el rol externo.] |
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
@@ -39,7 +40,11 @@ Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
 Registra los casos que aparecen en el modelo. Asigna a cada caso un identificador estable. Escribe el nombre con un verbo y un objeto. Resume el objetivo sin describir todos sus pasos.
 
 | Identificador | Nombre | Objetivo | Participantes |
+| UC-05 | Actualizar perfil | Actualizar los datos personales  y las preferencias de la cuenta | --- |
 | --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+
 | [UC-…] | [Nombre] | [Explica el objetivo.] | [Indica los actores que participan.] |
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
@@ -97,6 +102,8 @@ Indica los UR y FR que respaldan las decisiones del modelo. Añade los NFR que c
 En E1 basta con un respaldo breve del diagrama. La tabla permite ampliar la trazabilidad después. No es necesario crear un caso independiente para cada FR o NFR.
 
 | Elemento del modelo | UR y FR de referencia | NFR pertinentes | Relación con los requisitos |
+| UC-05 Actualizar perfil | UR-03; FR-019 | NFR-010 | FR-019 permite modificar datos personales y preferencias , pero excluye alias y correo. NFR-010 condiciona la accesibilidad de esta función. |
+| --- | --- | --- | --- |
 | --- | --- | --- | --- |
 | [Caso, actor o relación] | [Identificadores] | [Identificadores, si procede] | [Explica qué respaldan o condicionan.] |
 
