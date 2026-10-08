@@ -4,7 +4,8 @@
 | --- | --- | --- |
 | 1.3 | 05/10/2026 | Plantilla |
 
-**Iteración de referencia:** [Indica la última iteración incorporada al modelo.]
+**Iteración de referencia:** [E1]
+[Indica la última iteración incorporada al modelo.]
 
 Este documento recoge el modelo de casos de uso del proyecto. Se completa a medida que se incorporan funciones. Los diagramas muestran distintas vistas del mismo modelo.
 
@@ -41,9 +42,15 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 
 | Identificador | Nombre | Objetivo | Participantes |
 | UC-05 | Actualizar perfil | Actualizar los datos personales  y las preferencias de la cuenta | --- |
+| UC-06 | Acceso y modificación de la cuenta | Acceder a la cuenta y modificación de los datos de la misma | Usuario |
+| UC-07 | Restablecimiento de la cuenta | Reiniciar los parámetros iniciales de la cuenta | Usuario |
+| UC-08 | Autorizar relación de cuidado | Autorizar las relaciones entre usuario paciente y cuidador | Paciente |
+| UC-09 | Posesión de dos perfiles en una cuenta| Posibilidad de posesión de dos cuentas con diferente acceso | Usuario |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
+| --- | --- | --- | --- |
+
 
 | [UC-…] | [Nombre] | [Explica el objetivo.] | [Indica los actores que participan.] |
 
@@ -61,11 +68,11 @@ Para cada vista, incluye un título, una frase sobre su alcance y el diagrama. T
 
 ### 4.1 Primera vista
 
-**Título:** [Indica el título de la vista.]
+**Título:** [Modelo casos de uso acceso cuentas ayuda]
 
 **Alcance:** [Explica qué funciones representa esta vista.]
 
-[Inserta aquí el diagrama.]
+[![Casos de uso de acceso cuentas y ayuda](imagenes/casos-de-uso-acceso-cuentas-ayuda.png)] 
 
 Si una decisión necesita aclaración, puedes añadir una nota breve junto al diagrama.
 
