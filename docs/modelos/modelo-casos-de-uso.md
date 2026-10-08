@@ -28,6 +28,7 @@ En iteraciones posteriores, actualiza el alcance acumulado. Distingue las funcio
 Registra los roles externos que participan en las funciones representadas. Un actor puede ser una persona o un sistema externo. Describe cada rol con una frase breve. No confundas estos roles con las personas del equipo de desarrollo.
 
 | Nombre del actor | Rol que representa |
+|---|---|
 | Usuario | Persona que interactúa con proyecto Simbiosis |
 | Usuario Registrado | Persona que dispone de una cuenta en la plataforma |
 | [Nombre] | [Describe el rol externo.] |
