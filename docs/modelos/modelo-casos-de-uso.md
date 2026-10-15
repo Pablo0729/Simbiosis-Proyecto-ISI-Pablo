@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | 1.6 | 11/10/2026 | Revisado |
 
-**Iteración de referencia:** E1. Este documento recoge la primera vista revisada del modelo. Será el punto de partida para ampliarlo en E2.
+**Iteración de referencia:** E1. Este documento recoge la segunda vista revisada del modelo. Será el punto de partida para ampliarlo en E2.
 
 **Plantilla base:** [Plantilla del modelo de casos de uso](plantilla-modelo-casos-de-uso.md). La plantilla se conserva sin cumplimentar. Los resultados del proyecto se incorporan a este documento.
 
@@ -69,6 +69,12 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-09 | Consultar ayuda | Consultar las instrucciones y los temas de ayuda de las funciones seleccionadas. | Principal: Usuario. |
 | UC-10 | Recorrer bienvenida | Conocer las funciones básicas mediante el recorrido del primer acceso, con la posibilidad de omitirlo. | Principal: Usuario registrado. |
 | UC-11 | Enviar correo electrónico | Enviar el mensaje que necesita el caso de uso que lo incluye. | Apoyo: Servicio de correo electrónico. No se asigna un actor principal independiente. |
+| UC-12 | Introducir datos | Introducción manual de datos fisiológicos y resultados de laboratorio | Principal: Usuario Registrado. |
+| UC-13 | Consultar Historial | El paciente podrá consultar su historial | Principal: Usuario Registrado. |
+| UC-14 | Corrección de datos | Corrección de datos introducidos por error. | Principal: Usuario Registrado |
+| UC-15 | Publicar recetas | Publicar las recetas creadas aunque no estén validadas. | Apoyo: Usuario Principal. |
+| UC-16 | Invitación a nutricionista | invitación a un nutricionista que todavía no tiene cuenta. El paciente indicará el correo del nutricionista. | Principal: Paciente |
+
 | UC-31 | Aprobar cuenta de cuidador o nutricionista | Aprobar una cuenta solicitada con perfil de cuidador o nutricionista, conforme a las condiciones del perfil. | Principal: Coordinador. |
 | UC-32 | Suspender cuenta de usuario activa | Suspender una cuenta de usuario que se encuentra activa. | Principal: Coordinador. |
 | UC-33 | Eliminar cuenta de usuario | Eliminar una cuenta de usuario y conservar el contenido publicado cuando corresponda a un cuidador. | Principal: Coordinador. |
@@ -107,6 +113,15 @@ UC-34 no incluye UC-35. FR-185 exige auditar las acciones de aprobación, suspen
 
 La vista no utiliza relaciones de extensión ni generalizaciones entre casos de uso. La bienvenida y la ayuda tienen objetivos propios y se representan por separado.
 
+### 4.2. Vista de recetas y datos de salud
+
+**Frontera del sistema:** Publicación de recetas pòr nutricionistas, validacion de recetas propias, comprobación de requisitos para nutricionista
+
+**Alcance:** Registro y acceso local, condiciones por perfil, gestión básica de cuentas, ayuda contextual y bienvenida. La vista contiene siete actores y los quince casos de uso del apartado 3.
+
+![Vista de acceso, cuentas y ayuda de E1](imagenes/casos-de-uso-salud-recetas-e2.png)
+
+**Relaciones entre casos de uso.*
 El inicio de sesión no se incluye en todos los casos protegidos. La comprobación de la contraseña actual al eliminar la cuenta tampoco implica un nuevo inicio de sesión.
 
 La imagen se conserva en el repositorio con el nombre usado para esta referencia. Las revisiones de esta vista actualizarán el mismo archivo. Las nuevas vistas tendrán archivos distintos, de acuerdo con la [guía de modelos](README.md).
